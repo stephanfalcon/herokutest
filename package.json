@@ -1,0 +1,23 @@
+{
+  "name": "herokutest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild":"node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephanfalcon/herokutest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephanfalcon/herokutest/issues"
+  },
+  "homepage": "https://github.com/stephanfalcon/herokutest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
